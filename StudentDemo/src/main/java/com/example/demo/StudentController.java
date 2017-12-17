@@ -13,6 +13,7 @@ public class StudentController {
 	@RequestMapping("/getData")
 	public String getStudent() {
 		studentService.getData();
+		String string = "gdfd";
 		 return "success";
 	}
 }
