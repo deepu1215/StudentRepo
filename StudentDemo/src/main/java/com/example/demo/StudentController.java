@@ -14,6 +14,7 @@ public class StudentController {
 	public String getStudent() {
 		studentService.getData();
 		String string = "gdfd";
+		string.equals(string);
 		 return "success";
 	}
 }
